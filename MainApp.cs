@@ -11,7 +11,7 @@ namespace IfElse
         static void Main(string[] args)
         {
             Console.WriteLine("숫자를 입력을 하고 있는지를 보자 업데이트가 됬나?: ");
-            
+            ㅎㅀㅁㅀㅁㅀ
             string input = Console.ReadLine();
             int number = Int32.Parse(input);
 
