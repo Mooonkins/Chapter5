@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace IfElse
 {
-    class Program
+    class MainApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("숫자를 입력 : ");
+            Console.WriteLine("숫자를 입력을 하고 있는지를 보자: ");
 
             string input = Console.ReadLine();
             int number = Int32.Parse(input);
