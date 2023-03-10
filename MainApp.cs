@@ -16,7 +16,7 @@ namespace IfElse
             int number = Int32.Parse(input);
 
             if (number < 0)
-            {                                
+            {
                 Console.WriteLine("음수");
             }
             else if (number > 0)
@@ -26,7 +26,7 @@ namespace IfElse
             else
                 Console.WriteLine("0");
 
-            if(number % 2 == 0)
+            if (number % 2 == 0)
             {
                 Console.WriteLine("짝수");
             }
@@ -34,6 +34,9 @@ namespace IfElse
             {
                 Console.WriteLine("홀수");
             }
+            string a = number % 2 == 0 ? "짝수" : "홀수";
+            Console.WriteLine(a);            
+            Console.WriteLine(number + 5);
         }
     }
 }
